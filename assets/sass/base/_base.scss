@@ -1,0 +1,15 @@
+//  base
+body {
+    background-color: $body-color;
+    color: $primary-color;
+}
+
+h1 {
+    font-size: $big-font-size;
+}
+
+p {
+    border: $border-1;
+    font-size: $normal-font-size;
+    color: $second-color;
+}

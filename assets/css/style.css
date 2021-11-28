@@ -1,0 +1,63 @@
+body {
+  background-color: #ededed;
+  color: #11c729;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+p {
+  border: solid 4px #060607;
+  font-size: 20px;
+  color: #09090a;
+}
+
+.message, .message-success, .message-warning {
+  border: 3px solid #999;
+  padding: 5px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.info {
+  background: DarkGray;
+  color: #fff;
+  margin: 5px 0;
+}
+
+.alert {
+  background: DarkRed;
+  color: #fff;
+  margin: 5px 0;
+}
+
+.success {
+  background: DarkGreen;
+  color: #fff;
+  margin: 5px 0;
+}
+
+.message-success {
+  border-color: green;
+}
+
+.message-warning {
+  border-color: yellow;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}

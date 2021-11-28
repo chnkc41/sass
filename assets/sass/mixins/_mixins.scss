@@ -1,0 +1,7 @@
+//  @mixin 
+@mixin theme($theme: DarkGray) {
+    background: $theme; 
+    color: #fff;
+    // padding: 5px;
+    margin: 5px 0;
+}

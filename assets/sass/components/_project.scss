@@ -1,0 +1,29 @@
+.info {
+    @include theme;
+}
+
+.alert {
+    @include theme($theme: DarkRed);
+}
+
+.success {
+    @include theme($theme: DarkGreen);
+}
+
+
+
+
+.message {
+    @extend %message-shared;
+}
+  
+.message-success {
+    @extend %message-shared;
+    border-color: green;
+}
+
+.message-warning  {
+    @extend %message-shared;
+    border-color: yellow;
+}
+
